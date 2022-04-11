@@ -8,4 +8,9 @@ class TestController extends Controller
     {
         return 'azaza';
     }
+
+    public function test(): int
+    {
+        return 19;
+    }
 }
